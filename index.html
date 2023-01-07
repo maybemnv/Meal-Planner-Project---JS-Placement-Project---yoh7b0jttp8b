@@ -1,1 +1,62 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./App.js" defer></script>
+</head>
+<body>
+    <body>
+        <div class="screen__Wrapper">
+          <!-- NAVBAR -->
+          <nav class="navbar">
+            <section class="logo">
+              <span class="meal">Meal</span>
+              <span class="planner">Planner</span>
+            </section>
+          </nav>
+          <!-- DISPLAY__CONTAINER -->
+          <div class="display__container">
+             <section class="form__details">
+               <form action="" id="form">
+                <div class="first__line">
+                    <input type="text" id="height" placeholder="Enter Height in CMS" required>
+                    <input type="text" id="weight" placeholder="Enter weight in KG" required>
+                    <input type="text" id="age" placeholder="Enter Age" required>
+                </div>
+    
+                <div class="second__line">
+                    <select name="" id="gender">
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+        
+                    </select>
+                    <select name="" id="activity__level">
+                        <option value="">Activity Level</option>
+                        <option value="1.375">Lightly</option>
+                        <option value="1.55">Moderatly</option>
+                        <option value="1.725">Active</option>
+        
+                    </select>
+                </div>
+                <button type="submit" class="btn" id="submit-btn">Generate Meals</button>
+               </form>
+             </section>
+             <!-- MEAL SECTIONS -->
+             <section class="meals__container" id="meals__container">
+        
+             </section>
+            
+             <!-- RECIPIE SECTION -->
+             <section class="recipie__container" id="recipie__container">
+                
+             </section>
+            
+          </div>
+        </div>
+</body>
+</html>
